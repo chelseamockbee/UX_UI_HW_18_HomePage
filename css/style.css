@@ -1,0 +1,189 @@
+body {
+    background-color: #dacbbc;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.logo {
+    padding-right: 20%;
+    padding: 1%;
+}
+
+nav {
+    background-color: #002D5C;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+
+.heroImgContainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.heading {
+    margin-top: -8%;
+    position: absolute;
+    width: 100%;
+}
+
+#quote {
+    font-family: 'Fjalla One';
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+}
+
+#subheading {
+    margin-top: -2%;
+    font-size: x-large;
+}
+
+.pickupDelivery {
+    align-items: center;
+}
+#pickup {
+    display: flex;
+    margin-left: 30%;
+    position: absolute;
+    font-family: 'Fjalla One';
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+    color:#002D5C;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+#delivery {
+    display: flex;
+    margin-left: 60%;
+    position: absolute;
+    font-family: 'Fjalla One';
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+    color:#002D5C;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+.heroImg {
+    padding-bottom: 2%;
+    filter: brightness(40%);
+}
+
+#number {
+    font-family: 'Righteous', sans-serif;
+    font-size: large;
+}
+
+#menu {
+    text-decoration: underline;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Righteous', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    justify-items: center;
+    column-gap: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "clockIcon mapIcon"
+    "hours area"
+    "happyHour address"
+}
+
+#clockIcon {
+    grid-area: clockIcon
+}
+
+#mapIcon {
+    grid-area: mapIcon
+}
+
+#hours {
+    grid-area: hours
+}
+
+#area {
+    grid-area: area
+}
+
+#happyHour {
+    grid-area: happyHour
+}
+
+#address {
+    grid-area: address
+}
+
+.gridItem {
+    display: grid;
+    place-items: center;
+}
+
+.gridItem img {
+    width: 40%;
+    height: auto;
+}
+
+.preFooter {
+    text-align: center;
+}
+
+.socialMediaText {
+    font-family: 'Righteous', sans-serif;
+    color:#002D5C;
+    font-size: 1em;
+}
+
+.socialMedia {
+    height: 50px;
+}
+
+.trademark {
+    font-family: 'Righteous', sans-serif;
+    color: gray;
+    font-size: 1em;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0C6BA6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1em;
+}
+
+.Contact {
+    background-color: #D90429;
+    border: 2px solid black;
+    text-align: center;
+}
